@@ -51,11 +51,16 @@ a {
 header {
   background-color: #1f2937;
   display: flex;
+  /* padding: 10px 300px; */
+  padding: 50px 300px 30px 300px;
 }
 
 .left-header {
   display: flex;
   flex-direction: column;
+  justify-content: stretch;
+  gap: 10px;
+  flex: 1 1 50%;
 }
 
 .hero-primary-text {
@@ -68,4 +73,25 @@ header {
 .hero-secondary-text {
   font-size: 18px;
   color: #e5e7eb;
+}
+
+.btn-header {
+  font-weight: bold;
+  color: #f9faf8;
+  background-color: #3882f6;
+  border: none;
+  padding: 10px 30px;
+  border-radius: 10px;
+  align-self: flex-start;
+}
+
+.right-header-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1 1 50%;
+  color: #e5e7eb;
+  background-color: grey;
+  width: 600px;
+  height: 250px;
 }
