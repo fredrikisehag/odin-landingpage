@@ -45,3 +45,27 @@ a {
   font-weight: 300;
   color: #e5e7eb;
 }
+
+/* Header styling */
+
+header {
+  background-color: #1f2937;
+  display: flex;
+}
+
+.left-header {
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-primary-text {
+  margin: 0;
+  font-size: 48px;
+  font-weight: 700;
+  color: #f9faf8;
+}
+
+.hero-secondary-text {
+  font-size: 18px;
+  color: #e5e7eb;
+}
