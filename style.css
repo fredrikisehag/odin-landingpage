@@ -58,7 +58,7 @@ header {
 .left-header {
   display: flex;
   flex-direction: column;
-  justify-content: stretch;
+  justify-content: center;
   gap: 10px;
   flex: 1 1 50%;
 }
@@ -68,11 +68,13 @@ header {
   font-size: 48px;
   font-weight: 700;
   color: #f9faf8;
+  flex-grow: 1;
 }
 
 .hero-secondary-text {
   font-size: 18px;
   color: #e5e7eb;
+  flex-grow: 1;
 }
 
 .btn-header {
@@ -83,6 +85,7 @@ header {
   padding: 10px 30px;
   border-radius: 10px;
   align-self: flex-start;
+  flex-grow: 1;
 }
 
 .right-header-img {
