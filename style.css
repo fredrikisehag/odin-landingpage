@@ -51,7 +51,6 @@ a {
 header {
   background-color: #1f2937;
   display: flex;
-  /* padding: 10px 300px; */
   padding: 50px 300px 100px 300px;
 }
 
@@ -148,6 +147,47 @@ h2 {
   text-align: end;
   font-size: 24px;
   font-weight: 700;
+}
+
+/* Call To Action Section */
+
+.action-container {
+  margin: 100px 300px 100px 300px;
+  border-radius: 10px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #3882f6;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+}
+
+.calltoaction {
+  padding-left: 100px;
+}
+
+.action-paragraph {
+  margin: 0;
+  color: #e5e7eb;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.action-sentence {
+  margin: 0;
+  margin-top: 5px;
+  color: #e5e7eb;
+  font-weight: 300;
+}
+
+.action-btn {
+  background-color: #3882f6;
+  border: 2px solid #e5e7eb;
+  color: #e5e7eb;
+  padding: 10px 30px;
+  margin-right: 100px;
+  border-radius: 10px;
 }
 
 /* Footer Section */
