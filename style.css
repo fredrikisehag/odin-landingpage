@@ -108,9 +108,24 @@ h2 {
   text-align: center;
 }
 
+.randomcontainer {
+  padding: 40px 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
 .info-img {
   width: 150px;
   height: 150px;
   border: 5px solid #3882f6;
   border-radius: 20px;
+  margin-bottom: 10px;
+}
+
+.info-text {
+  max-width: 150px;
+  flex-wrap: wrap;
+  text-align: center;
 }
